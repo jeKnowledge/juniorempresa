@@ -1,7 +1,15 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .section {
   text-align:center;
   font-size: 3em;
 }
-.content{
-  margin:50px
+.content {
+  margin:100px
 }
+
+.fp-slidesNav.bottom {
+		bottom: 25px;
+	}
