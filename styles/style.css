@@ -4,7 +4,7 @@ body {
 
 .section {
   text-align:center;
-  font-size: 3em;
+  font-size: 2em;
 }
 .content {
   margin:100px
@@ -13,6 +13,7 @@ body {
 .fp-slidesNav.bottom {
 		bottom: 25px;
 	}
+
 
 #header {
 		top:0px;
@@ -27,6 +28,10 @@ body {
   }
 #header img {
   float: left;
-  margin: 0 0 10px 20px;
-  width: 5%;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+#junior1 img {
+  width: 50%
 }
