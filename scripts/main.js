@@ -26,6 +26,5 @@ $(document).ready(function() {
       }
     }
   });
-
   $("#fp-nav").find("ul li").first().remove();
 });
