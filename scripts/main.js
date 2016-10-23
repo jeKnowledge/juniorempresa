@@ -10,7 +10,6 @@ $(document).ready(function() {
     ccs3: true,
     scrollingSpeed: 600,
     afterLoad: function(anchorLink, index) {
-      console.log(index);
       switch (index) {
         case 2:
           $(".je-image").attr('src','images/exemplo1.png');
