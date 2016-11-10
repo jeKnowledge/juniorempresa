@@ -2,10 +2,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.section {
-  text-align:center;
-  font-size: 2em;
-}
 .content {
   margin:100px
 }
@@ -13,7 +9,9 @@ body {
 .fp-slidesNav.bottom {
 		bottom: 25px;
 	}
-
+.firstp {
+  margin-top: 60px;
+}
 
 #header {
 		top:0px;
@@ -28,10 +26,38 @@ body {
   }
 #header img {
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 28%;
   margin-left: 10px;
+}
+
+#introduction h1 {
+  position: relative;
+  margin-top: -100px;
+  margin-left: 40px;
+  font-size: 70px;
+}
+#introduction p {
+  margin-left: 60px;
+  font-size: 1.7em;
+  margin-right: 360px;
+  line-height: 33px;
+
+}
+#introduction ul {
+  margin-top: -24%;
+  margin-left: 3%;
+  font-size: 30px;
+  line-height: 320%;
+  list-style-image: url()
+}
+#introduction img{
+  width: 30%;
+  margin-left: 65%;
+  margin-top: -3%;
 }
 #junior1 img {
   width: 50%
+}
+#junior2 img{
+  width: 60%
 }
