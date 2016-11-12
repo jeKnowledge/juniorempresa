@@ -10,7 +10,16 @@ body {
 		bottom: 25px;
 	}
 .firstp {
-  margin-top: 60px;
+  margin-top: 76px;
+}
+li:before {
+  content: '✔';
+  color: white;
+
+  margin-right: 30px;
+  margin-left: -77px;
+  font-size: 30px;
+  vertical-align: 26px;
 }
 
 #header {
@@ -32,23 +41,28 @@ body {
 
 #introduction h1 {
   position: relative;
-  margin-top: -100px;
   margin-left: 40px;
   font-size: 70px;
 }
 #introduction p {
   margin-left: 60px;
-  font-size: 1.7em;
+  font-size: 1.78em;
   margin-right: 360px;
-  line-height: 33px;
+  line-height: 38px;
 
 }
 #introduction ul {
-  margin-top: -24%;
-  margin-left: 3%;
+  margin-top: -25%;
+  margin-left: 11%;
+  font-size: 110px;
+  line-height: 117%;
+  list-style: disc;
+  color: #018FC5;
+}
+#introduction ul li span {
+  color: black;
   font-size: 30px;
-  line-height: 320%;
-  list-style-image: url()
+  vertical-align:middle;
 }
 #introduction img{
   width: 30%;
