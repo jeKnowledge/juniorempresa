@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#fullpage').fullpage({
     anchors: ['Main_Page','Junior_1', 'Junior_2', 'Junior_3','Informations'],
-    sectionsColor: ['#F9F9F9', '#F9F9F9', '#376092', '#F9F9F9','#F9F9F9'],
+    sectionsColor: ['white', '#F9F9F9', '#376092', '#F9F9F9','#F9F9F9'],
     menu: '#menu',
     continuousHorizontal: true,
     slidesNavigation: true,
