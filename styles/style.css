@@ -16,7 +16,7 @@ body {
 .firstp {
   margin-top: 10px;
 }
-li:before {
+#introduction li:before {
   content: '✔';
   color: white;
 
