@@ -30,24 +30,6 @@ body {
   margin-left: 65%;
   margin-top: -3%;
 }
-
-#header {
-		top:0px;
-    position:fixed;
-		height: 50px;
-		display:block;
-		width: 100%;
-		background: rgba(255, 255, 255, 0);
-		z-index:9;
-		color: rgba(255, 255, 255, 0);
-		padding: 20px 0 0 0;
-  }
-#header img {
-  float: left;
-  width: 28%;
-  margin-left: 10px;
-}
-
 #introduction h1 {
   position: relative;
   margin-left: 1.2em;
@@ -74,23 +56,30 @@ body {
   font-size: 0.3em;
   vertical-align:middle;
 }
-#junior1 img {
-  width: 50%
+.team_image1{
+  width: 55%;
+  margin-top: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
-#junior2 img{
-  width: 60%
+.team_image2{
+  width: 80%;
+  margin-top: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.je-image {
+  float: left;
+  width: 28%;
+  margin-left: 10px;
 }
 
 .footer-logo {
   display: inline-block;
   float: left;
   padding-top: 7em;
-}
-
-.team_image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto
 }
 
 .footer_information2 {
@@ -116,8 +105,34 @@ body {
 #contacte{
   display: block;
 }
-
+#junior1 p {
+  color: black;
+}
 .twitters{
   display: flex;
   justify-content: center;
+}
+#junior2 p{
+  color: white;
+}
+.question{
+  margin-left: 140px;
+  font-size: 28px;
+  color: #989898;
+}
+
+.answer{
+    font-size: 23px;
+    margin-left: 90px;
+    margin-right: 70px;
+}
+.answer2{
+  font-size: 23px;
+  color: white;
+  margin-left: 90px;
+  margin-right: 70px;
+}
+.by{
+  float: right;
+  margin-right: 35px
 }
