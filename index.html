@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/jquery.fullPage.js" />
+  <meta charset="UTF-8">
   <link href="styles/style.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/jquery.fullpage.css" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
   <script type="text/javascript" src="node_modules/fullpage.js/vendors/scrolloverflow.js"></script>
   <script src="node_modules/fullpage.js/vendors/jquery.easings.min.js"></script>
-  <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullPage.js"></script>
-
+  <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullpage.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="scripts/main.js"></script>
 </head>
 
 <body>
@@ -36,7 +37,7 @@
 
     <div class="section" id="junior1">
       <div class="slide" data-anchor="image">
-        <img data-src="images/equipa_jek.jpg" alt="jek">
+        <img class="team_image" data-src="images/equipa_jek.jpg" alt="jek">
       </div>
 
       <div class="slide" data-anchor="anwser">
@@ -45,12 +46,18 @@
 
       <div class="slide" data-anchor="who_are_they">
         <p>Quem s&atildeo?</p>
+      </div>
+
+      <div class="slide" data-anchor="twitter">
+        <div class="twitters">
+          <a class="twitter-timeline" data-lang="pt" data-width="600" data-height="500" data-theme="dark" href="https://twitter.com/jeknowledge">Tweets by jeknowlegde</a>
+        </div>
       </div>
     </div>
 
     <div class="section" id="junior2">
       <div class="slide" data-anchor="image">
-        <img data-src="images/ISCTE_team.png" alt="iscte team">
+        <img class ="team_image" data-src="images/ISCTE_team.png" alt="iscte team">
       </div>
 
       <div class="slide" data-anchor="anwser">
@@ -60,16 +67,43 @@
       <div class="slide" data-anchor="who_are_they">
         <p>Quem s&atildeo?</p>
       </div>
+
+      <div class="slide" data-anchor="twitter">
+        <div class="twitters">
+          <a class="twitter-timeline" data-lang="pt" data-width="600" data-height="500" data-theme="dark" href="https://twitter.com/ISCTE_JC">Tweets by ISCTE_JC</a>
+      </div>
+      </div>
     </div>
 
     <div class="section fp-auto-height" id="informations">
       <div class="content">
-        <p>Informa&ccedil&otildees</p>
+        <div class="footer_information2">
+          <h5>Jek</h5>
+          <p class="footer_li">Departamento de Física sala B3</p>
+          <p class="footer_li">Rua Larga</p>
+          <p class="footer_li">P-3004-516</p>
+        </div>
+        <div class="footer_information">
+          <h5 id="contacte">
+            Contacte-nos
+          </h5>
+            <p class="footer_li">geral@jeknowledge.com</p>
+            <p id="footer_telefone">Telefone</p>
+            <p class="footer_li">+351 914 291 234 (Interno)</p>
+            <p class="footer_li">+351 916 633 324 (Tecnologia)</p>
+            <p class="footer_li">+351 966 331 184 (Inovação)</p>
+        </div>
+        <div class="footer-logo">
+          <img src="images/powered.png" alt="powered by"/>
+        </div>
+        <div class="footer-logo">
+          <img src="images/footer.png" alt="powered by"/>
+        </div>
       </div>
     </div>
   </div>
   <div>
-    <img data-src="images/jek3.png" alt="jek logo"> </div>
-  <script src="scripts/main.js"></script>
+    <img data-src="images/jek3.png" alt="jek logo"> </div>  
+
 </body>
 </html>

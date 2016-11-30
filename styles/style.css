@@ -80,3 +80,46 @@ body {
 #junior2 img{
   width: 60%
 }
+
+.footer-logo {
+  display: inline-block;
+  float: left;
+  padding-top: 7em;
+}
+
+.team_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.footer_information2 {
+  display: inline-block;
+  padding-right: 10em;
+  padding-left: 15em;
+  vertical-align: top;
+}
+
+.footer_information {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer_li {
+  font-size: 0.8em;
+}
+
+#footer_telefone {
+  font-size: 1em;
+}
+
+#contacte{
+  display: block;
+}
+
+.twitters{
+  display: flex;
+  justify-content: center;
+}
+
+
