@@ -10,8 +10,8 @@ body {
 		bottom: 25px;
 	}
 .separator {
-  margin-left: 250px;
-  width: 931px;
+  margin-left: 15em;
+  width: 65em;
 }
 .firstp {
   margin-top: 10px;
@@ -50,28 +50,28 @@ body {
 
 #introduction h1 {
   position: relative;
-  margin-left: 75px;
-  font-size: 70px;
-  margin-bottom: 10px;
+  margin-left: 1.2em;
+  font-size: 4.8em;
+  margin-bottom: 0.1em;
 }
 #introduction p {
-  margin-left: 100px;
+  margin-left: 4em;
   font-size: 1.78em;
-  margin-right: 360px;
-  line-height: 38px;
+  margin-right: 9em;
+  line-height: 1.38em;
 
 }
 #introduction ul {
   margin-top: -29%;
-  margin-left: 140px;
-  font-size: 110px;
+  margin-left: 1.5em;
+  font-size: 6.9em;
   line-height: 117%;
   list-style: disc;
   color: #018FC5;
 }
 #introduction ul li span {
   color: black;
-  font-size: 30px;
+  font-size: 0.3em;
   vertical-align:middle;
 }
 #junior1 img {
@@ -121,5 +121,3 @@ body {
   display: flex;
   justify-content: center;
 }
-
-
