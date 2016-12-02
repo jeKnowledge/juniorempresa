@@ -75,6 +75,13 @@ body {
   width: 28%;
   margin-left: 10px;
 }
+.footer{
+  float: left;
+  width: 425px;
+  margin-top: -75px;
+  margin-right: -160px;
+  margin-left: 68px;
+}
 
 .footer-logo {
   display: inline-block;
@@ -95,7 +102,7 @@ body {
 }
 
 .footer_li {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 #footer_telefone {
@@ -114,6 +121,9 @@ body {
 }
 #junior2 p{
   color: white;
+}
+#junior3 p{
+  color: black;
 }
 .question{
   margin-left: 140px;
