@@ -1,270 +1,515 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <link href="styles/style.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/jquery.fullpage.css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
-  <script type="text/javascript" src="node_modules/fullpage.js/vendors/scrolloverflow.js"></script>
-  <script src="node_modules/fullpage.js/vendors/jquery.easings.min.js"></script>
-  <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullpage.js"></script>
-  <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullpage.extensions.min.js"></script>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script src="scripts/main.js"></script>
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
 
-<body>
-  <div id="fullpage">
-    <div class="section" id="introduction">
-      <h1><span>Então, o que é uma júnior empresa?</span></h1>
-      <img class="separator" src= "images/Jek_separator.png">
-      <p class="firstp">Acreditamos que, com base apenas na definição de júnior empresa,
-        não somos capazes de nos aperceber do que realmente são e quais as vantagens de fazer parte destas verdadeiras "famílias".</p>
-      <p>Assim, decidimos questionar várias júniores empresas, todas elas com diferentes métodos de trabalho, sobre isso mesmo:</p>
-      <img class="general_image" data-src="images/trabalho-em-equipe-blog-da-engenharia.png">
-      <ul>
-        <li><span>O que é, para vocês, uma júnior empresa?</span></li>
-        <li><span>Quais as vantagens de fazer parte de uma empresa assim?</span></li>
-      </ul>
-    </div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <!-- JEKNOWLEDGE -->
-    <div class="section" id="junior1">
-      <div class="slide" data-anchor="image">
-        <img src="images/jekrect.png" href="#Main_Page" class="je-image active">
-        <img class="team_image1" data-src="images/equipa_jek.jpg" alt="jek">
-      </div>
+        <title>Junior Empresa</title>
 
-      <div class="slide" data-anchor="anwser">
-        <i class="question"><b>O que é para vocês uma júnior empresa?</b></i>
-        <p class="answer">"Uma júnior empresa é uma associação sem fins lucrativos, composta unicamente por
-           jovens estudantes do ensino superior, que visa estabelecer a ligação entre o mundo
-           académico e o mercado de trabalho.</p>
-        <p class="answer">O objetivo é bastante simples e consiste em learning by doing: dar aos estudantes a
-            possibilidade de porem em prática tudo aquilo
-           que aprendem nas salas de aula, em projetos reais com clientes reais.</p>
-        <p class="answer">Deste modo, os associados não só estão a praticar conceitos que já adquiriram, como estão a
-           desenvolver skills importantes que serão úteis no mundo real de trabalho."</p>
-        <p class="by"><soft>(Adriana Costa, Diretora executiva da Jeknowledge)</soft></p>
-        <i class="question"><b>Quais as vantagens de fazer parte de uma empresa assim?</b></i>
-      </div>
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-      <div class="slide" data-anchor="who_are_they">
-        <i class="question"><b>Quem são?</b></i>
-        <p class="answer">A nossa organização conta constantemente com entre 20 a 30 associados, sendo que desde a sua data de fundação
-            já passaram por esta mais de 60 talentos.</p>
-        <p class="answer">Alguns deles saíram para criar a suas próprias startups, como a Bundlr e Unplugg.</p>
-        <p class="answer">Também é de referir que a jeKnowledge é um dos 7 membros fundadores da JADE Portugal (a federação de júniores
-            empresas nacional).</p>
-      </div>
-      <div class="slide" data-anchor="twitter">
-        <center>
-          <a class="twitter-timeline" data-lang="pt" data-width="1000" data-height="700" href="https://twitter.com/jeknowledge">
-              Tweets by JeKnowledge
-          </a>
-        </center>
-      </div>
-    </div>
+        <!-- Custom CSS -->
+        <link href="css/scrolling-nav.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
 
-    <!-- ISCTE JUNIOR CONSULTING -->
-    <div class="section" id="junior2">
-      <div class="slide" data-anchor="image">
-        <img src="images/logo_teste.png" href="#Main_Page" class="je-image active">
-        <img class ="team_image2" data-src="images/ISCTE_team.png" alt="iscte team">
-      </div>
 
-      <div class="slide" data-anchor="anwser">
-        <i class="question"><b>O que é, para vocês, uma júnior empresa?</b></i>
-        <p class="answer">"Uma Júnior Empresa é uma entidade gerida exclusivamente por alunos.</p>
-        <p class="answer">Deve ser uma entidade com uma atividade definida, que desenvolva projetos externos e internos,
-           que gere receitas e em que o objetivo principal seja potenciar os seus membros a nível pessoal e
-           profissional, seja através de formações, de projetos, ou de outro tipo de iniciativas.</p>
-        <p class="answer">É uma organização com mecanismos de regulação interna que asseguram a qualidade do
-          trabalho desenvolvido, tendo como visão ser reconhecida dentro do leque empresarial enquanto
-          uma entidade de referência pela inovação/criatividade/jovialidade/freshness e qualidade."</p>
-        <i class="question"><b>Quais as vantagens de fazer parte de uma empresa assim?</b></i>
-        <p class = "answer2">"As principais vantagens de se ser Júnior Empresário são as seguintes:
-        <ul class="answer2">
-          <li>O networking com pessoas de background diferentes (dentro da Júnior Empresa e em contexto de Movimento Júnior) –
-              potenciando uma rede de ligações forte;</li>
-          <li>A possibilidade de desenvolver projetos reais e aproximação ao mercado de trabalho, contactando também com
-              alguns players importantes no tecido empresarial;</li>
-          <li>As oportunidades de formação privilegiadas e o desenvolvimento de soft e hard skills;</li>
-          <lil>A aplicação, na prática, dos conteúdos apreendidos em contexto de sala de aula."</li>
-        </ul>
-      </div>
 
-      <div class="slide" data-anchor="who_are_they">
-        <i class="question"><b>Quem são?</b></i>
-        <p class="answer">A IJC - ISCTE Junior Consulting é uma Júnior Empresa formada e gerida exclusivamente por estudantes do ISCTE-IUL,
-            que tem como objetivos primordiais assumir-se enquanto plataforma de referência no desenvolvimento dos melhores alunos da
-            universidade e ser um parceiro de excelência do tecido empresarial português, através da prestação de serviços de
-            consultoria low-cost.</p>
-        <p class="answer">Fundada em 2010, a IJC conta atualmente com mais de 40 membros ativos e com um vasto conjunto de parcerias
-            estabelecidas com empresas de excelência e muitos prémios de excelencia pelos seus trabalhos.
-        </p>
-      </div>
-      <div class="slide" data-anchor="twitter">
-        <center>
-          <a class="twitter-timeline" data-lang="pt" data-width="1000" data-height="700" href="https://twitter.com/ISCTE_JC">Tweets by ISCTE_JC</a>
-        </center>
-      </div>
-    </div>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">jeniAL</a>
+                </div>
 
-    <!-- JUNITEC -->
-    <div class="section" id="junior3">
-      <div class="slide" data-anchor="image">
-        <center><!-- to remove when we get the team foto from them-->
-          <img src="images/junitec_logo.png" href="#Main_Page" class="je-image active">
-          <img class ="team_image2" data-src="" alt="No team">
-        </center><!-- to remove when we get the team foto from them-->
-      </div>
 
-      <div class="slide" data-anchor="anwser">
-        <i class="question"><b>O que é, para vocês, uma júnior empresa?</b></i>
-        <p class="answer">"Uma Júnior Empresa, acima de tudo, é um espaço de aprendizagem.
-          É-lo através de várias formas, mas todas são uma ponte entre o mercado empresarial e o tecido universitário.
-          Um espaço onde podemos por as nossas ideias em prática, testá-las e ter espaço para as rectificar."</p>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a class="page-scroll" href="#page-top"></a> </li>
+                        <li> <a class="page-scroll" href="#jek">jeKnowledge</a> </li>
+                        <li> <a class="page-scroll" href="#iscte">ISCTE Junior Consulting</a> </li>
+                        <li> <a class="page-scroll" href="#junitec">Junitec</a> </li>
+                        <li> <a class="page-scroll" href="#fep">FEP</a> </li>
+                        <li> <a class="page-scroll" href="#junifeup">JuniFEUP</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
 
-        <i class="question"><b>Quais as vantagens de fazer parte de uma empresa assim?</b></i>
-        <p class="answer2">Estar numa Júnior Empresa permite o acesso a um mundo completamente diferente, um mundo onde as pessoas
-            são empreendedoras, onde a troca de ideias e conhecimento é forte. Permite o acesso a ferramentas (não só físicas,
-            como metodologias, conhecimentos, entre outros) que lhes são completamente novos e que dificilmente iriam
-            arranjar num outro sitio."</p>
-      </div>
+        <!-- Intro Section -->
+        <section id="intro" class="intro-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" id="introducao">
+                        <h1>O QUE É UMA JÚNIOR EMPRESA?</h1>
+                        <br> 
+                        <p>Acreditamos que, com base apenas na definição de júnior empresa, não somos capazes de nos aperceber do que realmente são e quais as vantagens de fazer parte destas verdadeiras "famílias".</p>
+                        <br> 
+                        <p>Assim, decidimos questionar várias júniores empresas, todas elas com diferentes métodos de trabalho, sobre isso mesmo:
+                        </p>
 
-      <div class="slide" data-anchor="who_are_they">
-        <i class="question"><b>Quem são?</b></i>
-        <p class="answer">A JUNITEC, criada em 1990 por um grupo de alunos do IST, foi a primeira Júnior Empresa portuguesa. </p>
-        <p class="answer">A JUNITEC esteve ainda envolvida em projectos como o Laboratório de Física, o Netindex, o Gestão Global e o
-            Shell Eco Marathon. Entre 2004 e 2009 a JUNITEC tornou-se uma associação inactiva, sendo reactividada por parte de um grupo
-            de alunos do IST que, conscientes da importância da actividade desenvolvida por esta organização, decidiram que estava na
-            hora de devolver aos alunos Instituto Superior Técnico a oportunidade de aplicar e expandir os seus conhecimentos. Desde então,
-            a JUNITEC tem crescido em termos de equipa e tem vindo a desenvolver vários projectos em diversas áreas, tendo sido mais
-            recentemente distinguida com o Prémio Projecto Inovador do Ano 2015, atribuído pela JADE Portugal. Ao longo dos seus 25 anos
-            existentes a JUNITEC incubou e permitiu lançar para o mercado 6 empresas nacionais.</p>
-      </div>
-      <div class="slide" data-anchor="twitter">
-        <center>
-          <a class="twitter-timeline" data-lang="pt" data-width="1000" data-height="700" href="https://twitter.com/junitec?lang?lang=pt">
-              Tweets by ISCTE_JC
-          </a>
-        </center>
-      </div>
-    </div>
+                        <div class="info">
+                            <h5><b>- O QUE É PARA VOCÊS UMA JUNIOR EMPRESA?</b></h5>
 
-    <!-- FEP JUNIOR CONSULTING -->
-    <div class="section" id="junior4">
-      <div class="slide" data-anchor="image">
-        <center><!-- to remove when we get the team foto from them-->
-          <img src="images/FJC.jpg" href="#Main_Page" class="je-image active">
-          <img class ="team_image2" data-src="" alt="No team">
-        </center><!-- to remove when we get the team foto from them-->
-      </div>
+                            <h5><b>- QUAIS SÃO AS VANTAGENS DE FAZER PARTE DE UMA JÚNIOR EMPRESA ASSIM?</b></h5>  
+                            </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="icon1">
+            
+                <img class="img-responsive" src="imagens/jekicon.png" alt="icon" width="660" height="445">
 
-      <div class="slide" data-anchor="anwser">
-        <i class="question"><b>O que é, para vocês, uma júnior empresa?</b></i>
-        <p class="answer">"Uma júnior empresa é um lugar onde conhecemos as pessoas do futuro.
-          Não só empreendedores, mas pessoas que querem trabalhar, fazer algo por elas, como também, pelo futuro,
-          porque vêem na júnior empresa um meio de darem o seu cunho, e de uma maneira completamente independente e responsável
-          tomarem as rédeas do seu destino. Uma júnior empresa acaba por ser um embrião do trabalho que alguém fará no futuro,
-          sendo este o primeiro passo para fazer algo maior que a própria pessoa."
-        </p>
-        <i class="question"><b>Quais as vantagens de fazer parte de uma empresa assim?</b></i>
-        <p class="answer">
-          A razão para nos candidatarmos a uma júnior empresa pode ser vista através de duas métricas, em primeiro lugar a utilitarista,
-          é muito valioso ao nível curricular pelos aspetos referidos acima, como ganha-se capacidades genuínas,
-          diferenciadoras e que não consegue arranjar em mais lado nenhum.
-          Também existe um empatia natural com as pessoas que juntam-se nas juniores empresas dado que nós podemos ter
-          diferentes histórias de vida, mas acabamos por encontrar pessoas nas juniores empresas pessoas com visão, pro-ativas
-          e inspiradoras, e só estar nesse meio é um orgulho. Em segundo lugar, a deontológica, de que acho que existe uma
-          obrigação moral de nós mesmo de fazermos algo por nós próprios e pela sociedade, e sendo, mais uma vez uma júnior empresa,
-          um instrumento para isso.
-        </p>
-      </div>
+            </div>
+        </section>
 
-      <div class="slide" data-anchor="who_are_they">
-        <i class="question"><b>Quem são?</b></i>
-        <p class="answer">
-          A FEP Junior Consulting (FJC) é uma júnior empresa sedeada na Faculdade de Economia da Universidade do Porto e criada em 1997.
-          Constituída por estudantes, esta tem como objetivo promover uma aproximação entre o mundo académico e empresarial através
-          da prestação de serviços de consultoria como, por exemplo, Estudos de Mercado e Planos de Negócios.
-        </p>
-      </div>
-      <!-- TO DO - verificar se tem twitter
-      <div class="slide" data-anchor="twitter">
-        <center>
-          <a class="twitter-timeline" data-lang="pt" data-width="1000" data-height="700" href="https://twitter.com">Tweets by FJC</a>
-        </center>
-      </div>
-      -->
-    </div>
 
-    <!-- JuniFEUP -->
-    <div class="section" id="junior5">
-      <div class="slide" data-anchor="image">
-        <center><!-- to remove when we get the team foto from them-->
-          <img src="images/JuniFEUP.png" href="#Main_Page" class="je-image active">
-          <img class ="team_image2" data-src="" alt="No team">
-        </center><!-- to remove when we get the team foto from them-->
-      </div>
+        <!-- jeK Section -->
+        <section id="jek" class="jek-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="container">
+                            <img class="img-responsive" src="imagens/logojek.png" alt="logojek" width="660" height="445">
+                        </div>
+                        <br> </br>  
+                        <br> </br> 
 
-      <div class="slide" data-anchor="anwser">
-        <i class="question"><b>O que é, para vocês, uma júnior empresa?</b></i>
-        <p class="answer">Júnior empresa é qualquer associação constituída por estudantes universitários com o objectivo de desenvolver
-            hard&soft skills num contexto que reúne pessoas, desafios e riscos reais.
-        </p>
-        <i class="question"><b>Quais as vantagens de fazer parte de uma empresa assim?</b></i>
-        <p class="answer">
-          Trata-se de pro-actividade em equipa na procura e concretização de novos projectos, numa simbiose única entre o tecido académico
-          e empresarial, propícia a experiências que dotarão os estudantes de uma larga rede de contactos e auto-confiança na abordagem
-          futura ao mercado de trabalho.
-        </p>
-      </div>
-      <div class="slide" data-anchor="who_are_they">
-        <i class="question"><b>Quem são?</b></i>
-        <p class="answer">
-            A JuniFEUP é a Júnior Empresa da Faculdade de Engenharia da Universidade do Porto. Dedica-se principalmente a Consultoria em Engenharia
-            e IT. Com longa tradição em Web Design, atua também a nível de Consultoria de Negócios e Consultoria de Formação. Conta já com 15 anos
-            de existência e mais de 100 projetos desenvolvidos. Um dos principais fatores determinantes para o sucesso da júnior empresa
-            é o seu corpo consultivo que conta com vários Professores e Alumni com uma vasta experiência no mercado.
-        </p>
-      </div>
-      <div class="slide" data-anchor="twitter">
-        <center>
-          <a class="twitter-timeline" data-lang="pt" data-width="1000" data-height="700" href="https://twitter.com/JuniFEUP">Tweets by JuniFEUP</a>
-        </center>
-      </div>
-    </div>
+                    <!--Carousel -->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
 
-    <div class="section fp-auto-height" id="informations">
-      <div class="content">
-        <div class="footer_information2">
-          <h5>jeKnowledge</h5>
-          <p class="footer_li">Departamento de Física sala B3</p>
-          <p class="footer_li">Rua Larga</p>
-          <p class="footer_li">P-3004-516</p>
+                         <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="container">
+                                    <img class="img-responsive" src="imagens/jek.jpg" alt="jek" width="660" height="445"> 
+                                </div>
+                            </div>
+
+                            <div class="item" id="jek1">
+                            <!--conteúdo-->
+                                <h3>QUEM SOMOS?</h3>
+                                <p> A nossa organização conta constantemente com entre 20 a 30 associados, sendo que desde a sua data de fundação já passaram por esta mais de 60 talentos.
+                                    <br> <br/>Alguns deles saíram para criar a suas próprias startups, como a Bundlr e Unplugg.
+
+                                    Também é de referir que a jeKnowledge é um dos 7 membros fundadores da JADE Portugal (a federação de júniores empresas nacional).</p>
+                            </div>
+
+                            <div class="item" id="jek2">
+                            <!--conteúdo-->
+                                 <h3> O QUE É PARA VOCÊS UMA JÚNIOR EMPRESA?</h3>
+                                 <p> Uma júnior empresa é uma associação sem fins lucrativos, composta unicamente por jovens estudantes do ensino superior, que visa estabelecer a ligação entre o mundo académico e o mercado de trabalho.
+                                 <br> <br/>O objetivo é bastante simples e consiste em learning by doing: dar aos estudantes a possibilidade de porem em prática tudo aquilo
+                                 que aprendem nas salas de aula, em projetos reais com clientes reais. 
+                                 <br> <br/>Deste modo, os associados não só estão a praticar conceitos que já adquiriram, como estão a
+                                 desenvolver skills importantes que serão úteis no mundo real de trabalho." </p>
+                            </div>
+                             
+                             
+                             <div class="item" id="jek3">
+                             <!--conteúdo-->
+                             <h3> QUAIS SÃO AS VANTAGENS DE FAZER <br> PARTE DE UMA JÚNIOR EMPRESA ASSIM? </h3>
+                             <p>Fazer parte de uma Junior Empresa assim permite-nos evoluir em diversos aspetos. Dá-nos a possibilidade de pôr em prática aquilo que aprendemos, e, consequentemente aprender muito mais graças às pessoas que nos rodeiam e aos projetos pelos quais somos responsáveis. Trabalhar com empresas, estar em contacto com clientes e situações de trabalho reais, aprender, partilhar conhecimento, ajudar e conhecer pessoas novas. Ser membro de uma Junior Empresa como a jeKnowledge é verdadeiramente uma experiência única e completa, pois nunca se deixa de parte o trabalho e a aprendizagem, assim como os momentos lúdicos e de convívio. </p>
+
+                              </div>    
+                                 
+                                 
+                             <div class="item" id="jek4">
+                             <!--conteúdo-->
+                                 <a class="twitter-timeline" data-width="570" data-height="450" href="https://twitter.com/jeKnowledge">Tweets by jeKnowledge</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+
+
+                        </div>
+
+                    <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>                
+                    </div>
+        </section>
+                </div>
+            </div>
+
+
+
+        <!-- ISCTE Section -->
+        <section id="iscte" class="iscte-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="container">
+                            <img class="img-responsive" src="imagens/iscte.png" alt="logoiscte" width="660" height="445"> 
+                        </div>
+                        <br> </br>  
+                        <br> </br> 
+
+                    <!--Carousel -->
+                    <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel2" data-slide-to="1"></li>
+                            <li data-target="#myCarousel2" data-slide-to="2"></li>
+                            <li data-target="#myCarousel2" data-slide-to="3"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                         <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="container">
+                                    <img class="img-responsive" src="imagens/iscteteam.jpg" alt="iscteteam" width="660" height="445">
+                                </div>                            
+
+                            </div>
+
+                            <div class="item" id="iscte1">
+                            <!--conteúdo-->
+                                <h3>QUEM SOMOS?</h3>
+                                <p> A IJC - ISCTE Junior Consulting é uma Júnior Empresa formada e gerida exclusivamente por estudantes do ISCTE-IUL, que tem como objetivos primordiais assumir-se enquanto plataforma de referência no desenvolvimento dos melhores alunos da universidade e ser um parceiro de excelência do tecido empresarial português, através da prestação de serviços de consultoria low-cost. 
+                                <br> <br/>Fundada em 2010, a IJC conta atualmente com mais de 40 membros ativos e com um vasto conjunto de parcerias estabelecidas com empresas de excelência e muitos prémios de excelencia pelos seus trabalhos.</p>
+                            </div>
+
+                            <div class="item" id="iscte2">
+                            <!--conteúdo-->
+                                <h3> O QUE É PARA VOCÊS UMA JÚNIOR EMPRESA?</h3>
+                                <p>Uma Júnior Empresa é uma entidade gerida exclusivamente por alunos. Deve ser uma entidade com uma atividade definida, que desenvolva projetos externos e internos, que gere receitas e em que o objetivo principal seja potenciar os seus membros a nível pessoal e profissional, seja através de formações, de projetos, ou de outro tipo de iniciativas.
+                                    <br> <br/> É uma organização com mecanismos de regulação interna que asseguram a qualidade do trabalho desenvolvido, tendo como visão ser reconhecida dentro do leque empresarial enquanto uma entidade de referência pela inovação/criatividade/jovialidade/freshness e qualidade.
+                                </p>
+                            </div>
+
+                            <div class="item" id="iscte3">
+                            <!--conteúdo-->
+                                <h3> QUAIS SÃO AS VANTAGENS DE FAZER <br> PARTE DE UMA JÚNIOR EMPRESA ASSIM? </h3>
+                                <p> As principais vantagens de se ser Júnior Empresário são as seguintes: 
+                                <br> — O networking com pessoas de background diferentes (dentro da Júnior Empresa e em contexto de Movimento Júnior) – potenciando uma rede de ligações forte;
+                                <br> — A possibilidade de desenvolver projetos reais e aproximação ao mercado de trabalho, contactando também com alguns players importantes no tecido empresarial;
+                                <br> — As oportunidades de formação privilegiadas e o desenvolvimento de soft e hard skills; 
+                                </p>
+                            </div>
+
+                             <div class="item" id="iscte4">
+                             <!--conteúdo-->
+                                 <a class="twitter-timeline" data-width="570" data-height="400" href="https://twitter.com/ISCTE_JC">Tweets by ISCTE_JC</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+
+                    <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>                
+                </div>
+            </div>
         </div>
-        <div class="footer_information">
-          <h5 id="contacte">
-            Contacte-nos
-          </h5>
-            <p class="footer_li">geral@jeknowledge.com</p>
-            <p id="footer_telefone">Telefone</p>
-            <p class="footer_li">+351 914 291 234 (Interno)</p>
-            <p class="footer_li">+351 916 633 324 (Tecnologia)</p>
-            <p class="footer_li">+351 966 331 184 (Inovação)</p>
-        </div>
-        <div class="footer-logo">
-          <img src="images/jekrect.png" class="footer" alt="powered by"/>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <img data-src="images/jek3.png" alt="jek logo">
-    </div>
-</body>
-</html>
+    </section>
+
+
+
+
+
+
+
+
+        <!-- Junitec Section -->
+        <section id="junitec" class="junitec-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="container">
+                                    <img class="img-responsive" src="imagens/junitec.png" alt="logojunitec" width="660" height="445">
+                                </div>                  
+                        <br> </br>  
+                        <br> </br> 
+
+                    <!--Carousel -->
+                    <div id="myCarousel3" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel3" data-slide-to="1"></li>
+                            <li data-target="#myCarousel3" data-slide-to="2"></li>
+                            <li data-target="#myCarousel3" data-slide-to="3"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                         <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="container">
+                                    <img class="img-responsive" src="imagens/junitecteam.jpg" alt="junitecteam" width="660" height="445">
+                                </div>                  
+                            </div>
+
+                            <div class="item" id="junitec1">
+                            <!--conteúdo-->
+                                <h3>QUEM SOMOS?</h3>
+                                <p> A JUNITEC, criada em 1990 por um grupo de alunos do IST, foi a primeira Júnior Empresa portuguesa. A JUNITEC esteve ainda envolvida em projectos como o Laboratório de Física, o Netindex, o Gestão Global e o Shell Eco Marathon.
+                                <br> <br/>Entre 2004 e 2009 a JUNITEC tornou-se uma associação inactiva, sendo reactividada por parte de um grupo de alunos do IST que, conscientes da importância da actividade desenvolvida por esta organização, decidiram que estava na hora de devolver aos alunos Instituto Superior Técnico a oportunidade de aplicar e expandir os seus conhecimentos.
+                                Desde então, a JUNITEC tem crescido em termos de equipa e tem vindo a desenvolver vários projectos em diversas áreas, tendo sido mais recentemente distinguida com o Prémio Projecto Inovador do Ano 2015, atribuído pela JADE Portugal.
+                                Ao longo dos seus 25 anos existentes a JUNITEC incubou e permitiu lançar para o mercado 6 empresas nacionais.
+                             </p>
+                            </div>
+
+                            <div class="item" id="junitec2">
+                            <!--conteúdo-->
+                                <h3> O QUE É PARA VOCÊS UMA JUNIOR EMPRESA?</h3>
+                                <p> Uma Júnior Empresa, acima de tudo, é um espaço de aprendizagem.
+                                <br> <br/>É-lo através de várias formas, mas todas são uma ponte entre o mercado empresarial e o tecido universitário. Um espaço onde podemos por as nossas ideias em prática, testá-las e ter espaço para as rectificar.</p>
+                            </div>
+                             
+                             <div class="item" id="junitec3">
+                            <!--conteúdo-->
+                                <h3> QUAIS SÃO AS VANTAGENS DE FAZER <br> PARTE DE UMA JÚNIOR EMPRESA ASSIM? </h3>
+                                <p>Estar numa Júnior Empresa permite o acesso a um mundo completamente diferente, um mundo onde as pessoas
+                                são empreendedoras, onde a troca de ideias e conhecimento é forte. Permite o acesso a ferramentas (não só físicas,
+                                como metodologias, conhecimentos, entre outros) que lhes são completamente novos e que dificilmente iriam
+                                arranjar num outro sitio.
+                                </p>
+                            </div>
+                             
+                            <div class="item" id="junitec4">
+                            <!--conteúdo-->
+                                <a class="twitter-timeline" data-width="570" data-height="400" href="https://twitter.com/JUNITEC">Tweets by JUNITEC</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                             </div>
+
+                                
+                        </div>
+
+                    <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>                
+                    </div>
+        </section>
+                </div>
+            </div>
+
+
+
+        <!-- FEP Section -->
+        <section id="fep" class="fep-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="container">
+                            <img class="img-responsive" src="imagens/FJC_logo.jpg" alt="logojunitec" width="660" height="445">
+                        </div>                  
+                        <br> </br>  
+                        <br> </br> 
+
+                    <!--Carousel -->
+                    <div id="myCarousel4" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel4" data-slide-to="1"></li>
+                            <li data-target="#myCarousel4" data-slide-to="2"></li>
+                            <li data-target="#myCarousel4" data-slide-to="3"></li>
+                        </ol>
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div class="container">
+                                        <img class="img-responsive" src="imagens/FJC.jpg" alt="FJCteam" width="660" height="445">
+                                    </div>                  
+                                </div>
+
+                            <div class="item" id="fep1">
+                            <!--conteúdo-->
+                                <h3>QUEM SOMOS?</h3>
+                                <p> A FEP Junior Consulting (FJC) é uma júnior empresa sedeada na Faculdade de Economia da Universidade do Porto e criada em 1997.Constituída por estudantes, esta tem como objetivo promover uma aproximação entre o mundo académico e empresarial através da prestação de serviços de consultoria como, por exemplo, Estudos de Mercado e Planos de Negócios. <br> <br/>A JuniFEUP é a Júnior Empresa da Faculdade de Engenharia da Universidade do Porto. Dedica-se principalmente a Consultoria em Engenharia e IT. Com longa tradição em Web Design, atua também a nível de Consultoria de Negócios e Consultoria de Formação. Conta já com 15 anos de existência e mais de 100 projetos desenvolvidos. Um dos principais fatores determinantes para o sucesso da júnior empresa é o seu corpo consultivo que conta com vários Professores e Alumni com uma vasta experiência no mercado.
+                                </p>
+                            </div>
+
+                            <div class="item" id="fep2">
+                                <!--conteúdo-->
+                                <h3> O QUE É PARA VOCÊS UMA JUNIOR EMPRESA?</h3>
+                                <p> Uma júnior empresa é um lugar onde conhecemos as pessoas do futuro.
+                                Não só empreendedores, mas pessoas que querem trabalhar, fazer algo por elas, como também, pelo futuro,
+                                porque vêem na júnior empresa um meio de darem o seu cunho, e de uma maneira completamente independente e responsável
+                                tomarem as rédeas do seu destino. Uma júnior empresa acaba por ser um embrião do trabalho que alguém fará no futuro,
+                                sendo este o primeiro passo para fazer algo maior que a própria pessoa.</p>
+
+                            </div>
+
+                            <div class="item" id="fep3">
+                                <!--conteúdo-->
+                                <h3> QUAIS SÃO AS VANTAGENS DE FAZER <br> PARTE DE UMA JÚNIOR EMPRESA ASSIM? </h3>
+                                <p>A razão para nos candidatarmos a uma júnior empresa pode ser vista através de duas métricas, em primeiro lugar a utilitarista,
+                                é muito valioso ao nível curricular pelos aspetos referidos acima, como ganha-se capacidades genuínas,
+                                diferenciadoras e que não consegue arranjar em mais lado nenhum.
+                                Também existe um empatia natural com as pessoas que juntam-se nas juniores empresas dado que nós podemos ter
+                                diferentes histórias de vida, mas acabamos por encontrar pessoas nas juniores empresas pessoas com visão, pro-ativas
+                                e inspiradoras, e só estar nesse meio é um orgulho. Em segundo lugar, a deontológica, de que acho que existe uma
+                                obrigação moral de nós mesmo de fazermos algo por nós próprios e pela sociedade, e sendo, mais uma vez uma júnior empresa,
+                                um instrumento para isso.
+                                </p>
+                            </div>
+
+                                
+                                
+                        </div>
+
+                    <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>                
+                    </div>
+        </section>
+                </div>
+            </div>
+
+
+
+
+
+
+     <!-- JuniFEUP Section -->
+        <section id="junifeup" class="junifeup-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="container">
+                                    <img class="img-responsive" src="imagens/JuniFEUPlogopng.png" alt="logojunitec" width="660" height="445">
+                                </div>                  
+                        <br> </br>  
+                        <br> </br> 
+
+                    <!--Carousel -->
+                    <div id="myCarousel5" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel5" data-slide-to="1"></li>
+                            <li data-target="#myCarousel5" data-slide-to="2"></li>
+                            <li data-target="#myCarousel5" data-slide-to="3"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                         <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="container">
+                                    <img class="img-responsive" src="imagens/junifeupteam.jpg" alt="junitecteam" width="660" height="445">
+                                </div>                  
+                            </div>
+
+                            <div class="item" id="junifeup1">
+                            <!--conteúdo-->
+                                <h3>QUEM SOMOS?</h3>
+                                <p> A JuniFEUP é a Júnior Empresa da Faculdade de Engenharia da Universidade do Porto. Dedica-se principalmente a Consultoria em Engenharia
+                                e IT. Com longa tradição em Web Design, atua também a nível de Consultoria de Negócios e Consultoria de Formação. Conta já com 15 anos
+                                de existência e mais de 100 projetos desenvolvidos. Um dos principais fatores determinantes para o sucesso da júnior empresa
+                                é o seu corpo consultivo que conta com vários Professores e Alumni com uma vasta experiência no mercado.
+                                </p>
+                            </div>
+
+                            <div class="item" id="junifeup2">
+                            <!--conteúdo-->
+                                <h3> O QUE É PARA VOCÊS UMA JUNIOR EMPRESA?</h3>
+                                <p> Júnior empresa é qualquer associação constituída por estudantes universitários com o objectivo de desenvolver hard and soft skills num contexto que reúne pessoas, desafios e riscos reais.</p>
+                            </div>
+                             
+                            <div class="item" id="junifeup3">
+                            <!--conteúdo-->
+                                <h3> QUAIS SÃO AS VANTAGENS DE FAZER <br> PARTE DE UMA JÚNIOR EMPRESA ASSIM? </h3>
+                                <p>Trata-se de pro-actividade em equipa na procura e concretização de novos projectos, numa simbiose única entre o tecido académico
+                                e empresarial, propícia a experiências que dotarão os estudantes de uma larga rede de contactos e auto-confiança na abordagem
+                                futura ao mercado de trabalho.
+                                </p>
+                            </div>
+                             
+                             
+                             <div class="item" id="junifeup4">
+                            <!--conteúdo-->
+                               <a class="twitter-timeline" data-width="570" data-height="500" href="https://twitter.com/JuniFEUP">Tweets by JuniFEUP</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                            
+
+                        </div>
+
+                    <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel5" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel5" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>                
+                    </div>
+        </section>
+                </div>
+            </div>
+
+
+
+
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Scrolling Nav JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
+
+    </body>
+
+    </html>
